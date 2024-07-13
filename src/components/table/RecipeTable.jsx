@@ -1,4 +1,4 @@
-import React, {useState, useMemo} from "react";
+import React, { useState, useMemo } from "react";
 import PropTypes from "prop-types";
 import { FaEye } from "react-icons/fa";
 import { RiEdit2Line } from "react-icons/ri";
@@ -41,16 +41,16 @@ const RecipeTable = ({ recipes }) => {
 
   return (
     <div className="p-2">
-      <div className="flex flex-wrap mb-4 gap-4">
+      <div className="flex flex-wrap mb-4 gap-4 justify-end">
         <input
           type="text"
           placeholder="Search by title"
-          className="p-2 border border-gray-300 rounded"
+          className="p-2 border border-gray-400 rounded w-96"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <select
-          className="p-2 border border-gray-300 rounded"
+          className="p-2 border border-gray-400 rounded"
           value={filterDietaryRestrictions}
           onChange={(e) => setFilterDietaryRestrictions(e.target.value)}
         >
@@ -62,7 +62,7 @@ const RecipeTable = ({ recipes }) => {
           ))}
         </select>
         <select
-          className="p-2 border border-gray-300 rounded"
+          className="p-2 border border-gray-400 rounded"
           value={filterCuisine}
           onChange={(e) => setFilterCuisine(e.target.value)}
         >
@@ -74,7 +74,7 @@ const RecipeTable = ({ recipes }) => {
           ))}
         </select>
         <select
-          className="p-2 border border-gray-300 rounded"
+          className="p-2 border border-gray-400 rounded"
           value={filterMealType}
           onChange={(e) => setFilterMealType(e.target.value)}
         >

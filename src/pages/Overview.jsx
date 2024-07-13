@@ -25,7 +25,7 @@ const Overview = () => {
       <div>
       <div className="flex">
         <button
-          className="bg-slate-800 text-white font-semibold px-3 py-2 rounded-md mt-8 ml-2 hover:bg-orange-400 flex item-center"
+          className="bg-slate-800 text-white font-semibold px-3 py-2 rounded-md mt-8  hover:bg-orange-400 flex item-center ml-auto"
           onClick={handleOpenModal}
         >
           Add New Button <IoIosAddCircle color="white" size={22}/>
