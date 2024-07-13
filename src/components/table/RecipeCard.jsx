@@ -4,9 +4,9 @@ import { FaRegHeart } from "react-icons/fa";
 
 const RecipeCard = ({ recipe }) => {
   return (
-    <div className="rounded overflow-hidden shadow-lg m-4 h-96">
+    <div className="rounded overflow-hidden shadow-xl m-4 h-96">
       <img
-        className="w-72 h-48 object-contain"
+        className="w-72 h-52 object-contain"
         src={recipe.image}
         alt={recipe.title}
       />

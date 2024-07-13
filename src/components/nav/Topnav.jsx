@@ -4,7 +4,7 @@ import { IoNotificationsOutline } from "react-icons/io5";
 import { BiBookReader } from "react-icons/bi";
 const Topnav = () => {
   return (
-    <div className="text-black">
+    <div className="text-black shadow-lg p-1">
       <di className="flex justify-between items-center">
         <div>
           <p className="font-bold text-3xl">All Recipes</p>

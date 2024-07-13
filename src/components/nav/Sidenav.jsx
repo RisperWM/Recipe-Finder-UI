@@ -8,7 +8,7 @@ import { MdDinnerDining } from "react-icons/md";
 
 const Sidenav = () => {
   return (
-    <div className="opacity-100 h-full text-white  bg-background bg-cover">
+    <div className="opacity-100 text-white bg-background bg-cover h-screen">
       <div className="justify-center items-center flex flex-col py-5">
         <img src="/logos.png" alt="" width={130} height={130} />
         <p
